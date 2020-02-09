@@ -36,7 +36,8 @@ def sorted_matrix
   ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
   ["Strawberries", "Potatoes","Grapes", "Avocadoes", "Asparagus"]
   ]
-  new.flatten.sort
+  ORGANIC_PRODUCE = new[0].sort
+  CONVENTIONAL_PRODUCE = new[1].sort
 end
 
 def matrix_lookup(matrix, row, column)
